@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">   
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <title>Dashboard</title>
+  </head>
+  <body>
+<main>
+<section class="Dashboard_section">
+    <!-- ---------------sidebar-------------  -->
+    <div class="wrapper">
+        <!--Top menu -->
+        <div class="sidebar">
+         <div class="logo_box">
+            <a href="">
+                <img src="assets/images/logo.png" alt=""> <span class="none-phone">WES</span>
+            </a>
+         </div>
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="loggedin-img">
+        <img src="assets/images/user.png" alt="">
+      </div>      <div class="loggedin-name none-phone">
+     <span class="user-name none-phone">Jerry Smith</span>   
+     <span class="user-role none-phone">Super Admin</span>   
+      </div>  
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item " href="#">Nabeel Ahmed</a></li>
+              <li><a class="dropdown-item " href="#">Majid Majid</a></li>
+              <li><a class="dropdown-item " href="#">Faizan Ali</a></li>
+            </ul>
+          </div>
+            <ul>
+              <h6>
+                Main Menu
+              </h6>
+                <li>
+                    <a href="#" class="active">
+                        <span class="icon"><img src="assets/images/icons/dashboard.svg" alt=""></span>
+                        <span class="item none-phone">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-desktop"></i></span>
+                        <span class="item none-phone" >Expenses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item none-phone">Attendance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="item none-phone" >Employees</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-database"></i></span>
+                        <span class="item none-phone">Event Details</span>
+                    </a>
+                </li>
+               
+            </ul>
+            <ul>
+                <h6>
+                  Others
+                </h6>
+                  <li>
+                      <a href="#" >
+                          <span class="icon"><img src="assets/images/icons/dashboard.svg" alt=""></span>
+                          <span class="item none-phone">Report</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="icon"><i class="fas fa-desktop"></i></span>
+                          <span class="item none-phone">Organization</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="icon"><i class="fas fa-user-friends"></i></span>
+                          <span class="item none-phone">Masters</span>
+                      </a>
+                  </li>
+              
+                 
+              </ul> 
+        </div>
+        </div>
+<!-- ----------- sidebar------------>
+<!-- --------dasbaord content----------- -->
+<div class="dashboard_content_side">
+    <div class="top_navbar">
+        <div class="hamburger_div">
+            <a class="hamburger" href="#">
+              <img src="assets/images/icons/menu (2) 1.svg" alt="">
+            </a>
+            <h4 class="heading-md">
+                Dashboard
+            </h4>
+        </div>
+        <div class="search_icons_div">
+            <div class="search_input">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <img class="search_icon" src="assets/images/icons/search.svg" alt="">
+            </div>
+            <div class="icons_and_language_dropdown">
+                <div class="icons ">
+<div class="icon-box icon_after">
+    <img  src="assets/images/icons/msg.svg" alt="">
+</div>
+<div class="icon-box icon_after">
+    <img  src="assets/images/icons/notification.svg" alt="">
+</div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      English
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Spanish</a></li>
+                      <li><a class="dropdown-item" href="#">Swedish</a></li>
+                      <li><a class="dropdown-item" href="#">Danish</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------dasbaord content----------- -->
+</section>
+
+</main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
